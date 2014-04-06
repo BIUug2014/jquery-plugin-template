@@ -27,7 +27,7 @@
       return methods.init.apply( this, arguments );
     }
     else {
-      $.error('Method ' + method + ' does not exists on jQuery.myPlugin');
+      $.error('Method ' + method + ' does not exists in jQuery.myPlugin');
     }
   };
 
